@@ -75,8 +75,6 @@ onMounted(() => {
         }
       });
 
-      
-
       // keyframes - will be linearly mapped across the scroll timeline
       let arrPositionModel = [
         {

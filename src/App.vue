@@ -12,7 +12,7 @@ import Performance from './components/PerformanceSection.vue'
   <Model3D/>  
   <!-- <div class="h-screen"></div> -->
   <Design />
-  <Performance/>
+  <!-- <Performance/> -->
   <!-- <Navbar/> -->
   <TimeLine/>
 </template>

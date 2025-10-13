@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
+}
+body::-webkit-scrollbar{
+  width: 0px;
+}
+
+/* Liquid glass effect class */
+
+.liquid-glass{
+  background-color: rgba(255, 255, 255, 0.04);
+  box-shadow: inset 1px 2px 6px 0 rgba(255, 255, 255, 0.2),
+              inset -2px -1px 4px 0 rgba(255, 255, 255, 0.1),
+              inset 0 0 8px 0 rgba(255, 255, 255, 0.1);
+  backdrop-filter: url(#grainy-noise) url(#glass-distortion) blur(2px);
+}
+
+.active{
+  color: white;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+
+/* navbar animation classes */
+
+.tabs-container {
+  position: relative;
+}
+.tab-indicator {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  background-color: #fff;  /* or whatever */
+  border-radius: 2px;
+  transition: left 0.3s, width 0.3s;
+}

@@ -1,0 +1,220 @@
+<template>
+    <section class="section h-screen w-screen">
+        <h1 class="text-white text-center text-7xl font-bold uppercase">Design</h1>
+        <div class="container mx-auto h-full p-10 overflow-hidden" id="container">
+            <!-- <div id="body-section" class="bg-white w-[100%] h-fit mx-auto mb-[200px] rounded-[2em]"> -->
+            <div id="body-section" class="bg-white w-[10%] h-full mx-auto mb-[200px] rounded-full overflow-hidden">
+                <div class="flex w-full h-auto items-center justify-center" id="body-content">
+                    <div class="left w-1/3 h-auto p-10">
+                        <div class="box bg-black rounded-2xl h-full w-full"></div>
+                    </div>
+
+                    <!-- -------------------------------------- Body Specs --------------------------------------------- -->
+                    <div class="right w-2/3 h-fit border-stone-200 border-s-2 font-mono py-7" id="right-body">
+                        <h1 class="ms-4 px-4 text-7xl text-stone-800 font-pop font-semibold uppercase">Titanium Body</h1>
+                        <h1 class="ms-8 text-2xl text-stone-600 font-rob flex items-center gap-3 mt-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10m.47-13.53a.75.75 0 0 1 1.06 0l3 3a.75.75 0 0 1 0 1.06l-3 3a.75.75 0 1 1-1.06-1.06l1.72-1.72H8a.75.75 0 0 1 0-1.5h6.19l-1.72-1.72a.75.75 0 0 1 0-1.06" clip-rule="evenodd"/></svg>
+                            Built with <span class="text-stone-800 font-semibold">Aerospace-grade</span> titanium</h1>
+                        
+                        <span class="mt-9 w-full h-[1px] bg-stone-200 block"></span>
+
+                        <ul class="p-6 px-9">
+                            <li class="font-mono text-lg text-stone-600 opacity-60 hover:opacity-100 hover:scale-[101%] transition-all duration-500"><span class="font-semibold text-stone-800 font-pop uppercase">Material :</span> Titanium</li>
+                            <li class="font-mono text-lg text-stone-600 opacity-60 hover:opacity-100 hover:scale-[101%] transition-all duration-500"><span class="font-semibold text-stone-800 font-pop uppercase">Durability :</span> Precision-milled unibody with enhanced structural rigidity</li>
+                            <li class="font-mono text-lg text-stone-600 opacity-60 hover:opacity-100 hover:scale-[101%] transition-all duration-500"><span class="font-semibold text-stone-800 font-pop uppercase">Finish :</span> Ultra-fine matte micro-texture for superior grip and reduced fingerprints</li>
+                            <li class="font-mono text-lg text-stone-600 opacity-60 hover:opacity-100 hover:scale-[101%] transition-all duration-500"><span class="font-semibold text-stone-800 font-pop uppercase">Thermal :</span> Internal vapor chamber for efficient heat dissipation</li>
+                            <li class="font-mono text-lg text-stone-600 opacity-60 hover:opacity-100 hover:scale-[101%] transition-all duration-500"><span class="font-semibold text-stone-800 font-pop uppercase">Colors :</span> Cosmic Orange, Deep Blue ,Silver</li>
+                        </ul>
+
+                        <!-- colors range -->
+                         <div class="flex items-center w-full h-[120px] gap-6 ps-9 mb-9">
+                            <div class="box object-cover w-[160px] h-full p-2 border-2 border-slate-300 rounded-xl flex flex-col items-center justify-start bg-slate-200 hover:border-slate-500 transition duration-300">
+                                <img src="../assets/Deep_Blue.png" alt="" class="h-full w-full object-contain">
+                                <p class="text-stone-700 font-mono mt-3">Deep Blue</p>
+                            </div>
+                            <div class="box object-cover w-[160px] h-full p-2 border-2 border-gray-300 rounded-xl flex flex-col items-center justify-start bg-gray-100 hover:border-gray-500 transition duration-300">
+                                <img src="../assets/Silver.png" alt="" class="h-full w-full object-contain">
+                                <p class="text-gray-500 font-mono mt-3">Silver</p>
+                            </div>
+                            <div class="box object-cover w-[160px] h-full p-2 border-2 border-orange-200 rounded-xl flex flex-col items-center justify-start bg-orange-100 hover:border-orange-500 transition duration-300">
+                                <img src="../assets/[CITYPNG.COM]Orange iPhone 17 Pro in Back View - 4000x4000.png" alt="" class="h-full w-full object-contain">
+                                <p class="text-orange-700 font-mono mt-3">Cosmic Orange</p>
+                            </div>
+                         </div>
+                    </div>
+
+                    <!-- -------------------------------------- Camera Specs --------------------------------------------- -->
+                    <div class="right w-2/3 h-full border-stone-200 border-s-2 font-mono py-7" id="right-camera">
+                        <h1 class="ms-4 px-4 text-7xl text-stone-800 font-pop font-semibold uppercase">Camera</h1>
+                        <h1 class="ms-8 text-2xl text-stone-600 font-rob flex items-center gap-3 mt-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10m.47-13.53a.75.75 0 0 1 1.06 0l3 3a.75.75 0 0 1 0 1.06l-3 3a.75.75 0 1 1-1.06-1.06l1.72-1.72H8a.75.75 0 0 1 0-1.5h6.19l-1.72-1.72a.75.75 0 0 1 0-1.06" clip-rule="evenodd"/></svg>
+                            Crafted from <span class="text-stone-800 font-semibold">Precision.</span> Perfected in every detail</h1>
+                        
+                        <span class="mt-9 w-full h-[1px] bg-stone-200 block"></span>
+
+                        <ul class="p-6 px-9 gap-8">
+                            <li class="font-mono text-lg text-stone-600 opacity-60 hover:opacity-100 hover:scale-[101%] transition-all duration-500"><span class="font-semibold text-stone-800 font-pop uppercase">Triple-Lens System :</span> 48MP Main, 48MP Wide and 48MP Telephoto lens.</li>
+                            <li class="font-mono text-lg text-stone-600 opacity-60 hover:opacity-100 hover:scale-[101%] transition-all duration-500"><span class="font-semibold text-stone-800 font-pop uppercase">Lens Coating :</span> Nano-matte sapphire lens cover reduces glare and reflection.</li>
+                            <li class="font-mono text-lg text-stone-600 opacity-60 hover:opacity-100 hover:scale-[101%] transition-all duration-500"><span class="font-semibold text-stone-800 font-pop uppercase">Lens Alignment :</span> Perfectly leveled lens placement ensures consistent depth and shadow response under all lighting angles.</li>
+                            <li class="font-mono text-lg text-stone-600 opacity-60 hover:opacity-100 hover:scale-[101%] transition-all duration-500"><span class="font-semibold text-stone-800 font-pop uppercase">Material Contrast :</span> The brushed titanium ring around the camera creates a fine contrast against the matte body surface.</li>
+                            <li class="font-mono text-lg text-stone-600 opacity-60 hover:opacity-100 hover:scale-[101%] transition-all duration-500"><span class="font-semibold text-stone-800 font-pop uppercase">Thermal Optimization :</span> Hidden micro-vents around the housing maintain temperature stability during extended 4K recording.</li>
+                        </ul>
+
+                        <div class="flex justify-end">
+                            <button class="bg-stone-100 ps-6 font-semibold rounded-full flex items-center gap-4 hover:scale-[102%] transition-all duration-300 me-9">
+                                Know More about Camera Specs
+                                <span class="p-2 rounded-full bg-stone-200">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10M9.97 8.47a.75.75 0 0 1 1.06 0l3 3a.75.75 0 0 1 0 1.06l-3 3a.75.75 0 1 1-1.06-1.06L12.44 12L9.97 9.53a.75.75 0 0 1 0-1.06" clip-rule="evenodd"/></svg>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- -------------------------------------- Edge & Connectivity --------------------------------------------- -->
+                    <div class="right w-2/3 h-full border-stone-200 border-s-2 font-mono py-7" id="right-edge">
+                        <h1 class="ms-4 px-4 text-7xl text-stone-800 font-pop font-semibold uppercase">Edge & Connectivity</h1>
+                        <h1 class="ms-8 text-2xl text-stone-600 font-rob flex items-center gap-3 mt-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10m.47-13.53a.75.75 0 0 1 1.06 0l3 3a.75.75 0 0 1 0 1.06l-3 3a.75.75 0 1 1-1.06-1.06l1.72-1.72H8a.75.75 0 0 1 0-1.5h6.19l-1.72-1.72a.75.75 0 0 1 0-1.06" clip-rule="evenodd"/></svg>
+                            Sculpted edges. Seamless connections.
+                        </h1>
+
+                        <span class="mt-9 w-full h-[1px] bg-stone-200 block"></span>
+
+                        <ul class="pt-6 px-9 gap-8">
+                            <li class="font-mono text-lg text-stone-600 opacity-60 hover:opacity-100 hover:scale-[101%] transition-all duration-500"><span class="font-semibold text-stone-800 font-pop uppercase">Edges :</span> Precision-beveled chamfer with matte micro-finish for tactile grip and refined reflections.</li>
+                            <li class="font-mono text-lg text-stone-600 opacity-60 hover:opacity-100 hover:scale-[101%] transition-all duration-500"><span class="font-semibold text-stone-800 font-pop uppercase">Ports :</span> Universal USB-C with fast PD charging and high-speed data transfer; sealed port gasket for improved ingress protection.</li>
+                            <li class="font-mono text-lg text-stone-600 opacity-60 hover:opacity-100 hover:scale-[101%] transition-all duration-500"><span class="font-semibold text-stone-800 font-pop uppercase">Wireless :</span> MagSafe-compatible magnetic charging, Qi wireless, and rapid reverse wireless charging.</li>
+                            <li class="font-mono text-lg text-stone-600 opacity-60 hover:opacity-100 hover:scale-[101%] transition-all duration-500"><span class="font-semibold text-stone-800 font-pop uppercase">Connectivity :</span> Wi‑Fi 6E, Bluetooth 5.4, Ultra Wideband (UWB) and dual eSIM + physical SIM support.</li>
+                            <li class="font-mono text-lg text-stone-600 opacity-60 hover:opacity-100 hover:scale-[101%] transition-all duration-500"><span class="font-semibold text-stone-800 font-pop uppercase">Sealing :</span> Precision gasket and micro-louver drainage delivering IP68 water and dust resistance.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</template>
+
+<script setup>
+import { onMounted } from "vue";
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
+onMounted(() => {
+    // Set initial states
+    gsap.set("#body-content", { opacity: 0, y: 40 });
+    gsap.set("#right-camera", { opacity: 0, x: 100, display: "none" });
+    gsap.set("#right-edge", { opacity: 0, x: 100, display: "none" });
+
+    // Timeline for all animations
+    const tl = gsap.timeline({
+        scrollTrigger: {
+            trigger: ".container",
+            start: "top 0%",
+            end: "bottom -100%",
+            scrub: 3,
+            pin: true,
+            // markers: true,
+        }
+    });
+
+    // Animate body-section width and borderRadius
+    tl.to("#body-section", {
+        width: "100%",
+        borderRadius: "1em",
+        duration: 1.8,
+        ease: "power1.inOut",
+    });
+
+    // Fade in body-content after body-section animation completes
+    tl.to("#body-content", {
+        opacity: 1,
+        y: 0,
+        duration: 1.2,
+        ease: "power2.out",
+    }, ">");
+
+    // Slide out right-body and slide in right-camera in sequence
+    tl.addLabel("switch");
+    tl.to("#right-body", {
+        opacity: 0,
+        x: -100,
+        duration: 1.2,
+        ease: "power2.in",
+        onComplete: () => {
+            gsap.set("#right-body", { display: "none" });
+            gsap.set("#right-camera", { display: "block" });
+        },
+        onReverseComplete: () => {
+            gsap.set("#right-body", { display: "block", opacity: 1, x: 0 });
+            gsap.set("#right-camera", { display: "none", opacity: 0, x: 100 });
+        }
+    }, "switch");
+
+    tl.to("#right-camera", {
+        opacity: 1,
+        x: 0,
+        duration: 1.2,
+        ease: "power2.out"
+    }, "switch+=0.2"); // slight overlap for smoother transition
+
+    // After camera, switch to Edge & Connectivity
+    tl.addLabel("switch2", ">+=0.6");
+    tl.to("#right-camera", {
+        opacity: 0,
+        x: -100,
+        duration: 1.2,
+        ease: "power2.in",
+        onComplete: () => {
+            gsap.set("#right-camera", { display: "none" });
+            gsap.set("#right-edge", { display: "block" });
+        },
+        onReverseComplete: () => {
+            gsap.set("#right-camera", { display: "block", opacity: 1, x: 0 });
+            gsap.set("#right-edge", { display: "none", opacity: 0, x: 100 });
+        }
+    }, "switch2");
+
+    tl.to("#right-edge", {
+        opacity: 1,
+        x: 0,
+        duration: 1.2,
+        ease: "power2.out"
+    }, "switch2+=0.2");
+
+
+    tl.to("#right-edge", {
+        opacity: 0,
+        x: -100,
+        duration: 1.2,
+        ease: "power2.in",
+        onReverseComplete: () => {
+            gsap.set("#right-edge", { display: "block", opacity: 1, x: 0 });
+        }
+    }, ">+=0.6");
+
+    tl.to("#container", {
+        transform: "scale(0.5) translateY(-50%)",
+        duration: 1.2,
+        ease: "power2.inOut",
+        scrollTrigger: {
+            trigger: "#right-edge",
+            start: "top 0%",
+            end: "bottom -120%",
+            scrub: 3,
+            // markers: true,
+        }
+    }, ">");
+
+    // Dispatch an event when the design timeline reaches its end so other pages can start
+    tl.call(() => {
+        try {
+            window.designAnimationsComplete = true;
+            window.dispatchEvent(new Event('designAnimationsComplete'));
+        } catch (e) {
+            /* ignore in non-browser env */
+        }
+    }, null, ">");
+});
+</script>

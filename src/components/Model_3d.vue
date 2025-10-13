@@ -50,7 +50,7 @@ onMounted(() => {
   scene.add(fillLight);
   
   const loader = new GLTFLoader();
-  loader.load('src/assets/iPhone_model.glb',
+  loader.load('@/assets/iPhone_model.glb',
     function (gltf) {
       iphone = gltf.scene;
       iphone.position.set(0, -2, 0);

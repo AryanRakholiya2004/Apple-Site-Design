@@ -23,3 +23,48 @@
     </div>
   </section>
 </template>
+
+<script setup>
+
+import { onMounted } from 'vue';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
+
+onMounted(() => {
+  const dispatchModelChange = (detail) => {
+    window.dispatchEvent(new CustomEvent('model-section-change', { detail }));
+  };
+
+  const presets = {
+    default: {
+      position: { x: 0, y: -2, z: 0 },
+      rotation: { x: 0, y: 180, z: 0 },
+      camera: { x: 0, y: 0, z: 24, mm: 20 }
+    },
+  };
+
+  // initial model state
+  dispatchModelChange(presets.default);
+
+  // Explore button -> trigger explore view
+  const btns = document.querySelectorAll('.top_right_btn button');
+  if (btns.length >= 2) {
+    const exploreBtn = btns[1];
+    exploreBtn.addEventListener('click', () => dispatchModelChange(presets.explore));
+  }
+
+  // change model based on scroll position of the hero section
+  ScrollTrigger.create({
+    trigger: '#hero-section',
+    start: 'top top',
+    end: 'bottom top',
+    scrub: 1,
+    onEnter: () => dispatchModelChange(presets.default),
+    onEnterBack: () => dispatchModelChange(presets.default),
+  });
+});
+
+
+</script>

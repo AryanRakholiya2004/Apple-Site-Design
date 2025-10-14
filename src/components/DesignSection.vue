@@ -194,19 +194,6 @@ onMounted(() => {
         }
     }, ">+=0.6");
 
-    tl.to("#container", {
-        transform: "scale(0.5) translateY(-50%)",
-        duration: 1.2,
-        ease: "power2.inOut",
-        scrollTrigger: {
-            trigger: "#right-edge",
-            start: "top 0%",
-            end: "bottom -120%",
-            scrub: 3,
-            // markers: true,
-        }
-    }, ">");
-
     // Dispatch an event when the design timeline reaches its end so other pages can start
     tl.call(() => {
         try {

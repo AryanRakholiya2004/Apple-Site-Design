@@ -165,7 +165,7 @@ onMounted(() => {
       end: "bottom 50%",
       scrub: 1.2,
       pin: true,
-      markers: true,
+      // markers: true,
     },
   })
 });

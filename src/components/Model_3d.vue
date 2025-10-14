@@ -10,6 +10,7 @@ import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer
 import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js'
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js'
 import { gsap } from 'gsap'
+import modelUrl from '../assets/iPhone_model.glb?url'
 
 onMounted(() => {
   // Camera
@@ -47,7 +48,8 @@ onMounted(() => {
   scene.add(fillLight);
 
   const loader = new GLTFLoader();
-  loader.load('src/assets/iPhone_model.glb',
+
+  loader.load(modelUrl,
     function (gltf) {
       iphone = gltf.scene;
 

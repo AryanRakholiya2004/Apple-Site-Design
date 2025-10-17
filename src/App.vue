@@ -18,13 +18,13 @@ import CameraSection from './components/CameraSection.vue'
 <template>
   <HeroSection/>
 
-  <Design_Body_Section />
-  <Design_Camera_Section />
-  <Design_Ports_Section />
+  <!-- <Design_Body_Section /> -->
+  <!-- <Design_Camera_Section /> -->
+  <!-- <Design_Ports_Section /> -->
 
   <CameraSection/>
 
-  <Model3D/>  
+  <!-- <Model3D/>   -->
   <!-- <div class="h-screen"></div> -->
 
 

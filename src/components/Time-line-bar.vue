@@ -6,7 +6,7 @@
         <div
             class="bar absolute left-50 right-50 top-1/2 h-0.5 bg-white rounded w-[95%] -translate-y-1/2 shadow-[0_0_8px_0_rgba(255,255,255,0.08)]">
         </div>
-        <div class="circle absolute top-1/2 w-3 h-3 bg-white rounded-full shadow-[0_0_16px_4px_rgba(255,255,255,0.4),0_2px_8px_0_rgba(0,0,0,0.12)] -translate-y-1/2 transition-[left] duration-250 ease-[cubic-bezier(.4,0,.2,1)]"
+        <div class="circle absolute top-1/2 w-2 h-2 bg-white rounded-full shadow-[0_0_16px_4px_rgba(255,255,255,0.4),0_2px_8px_0_rgba(0,0,0,0.12)] -translate-y-1/2 transition-[left] duration-250 ease-[cubic-bezier(.4,0,.2,1)]"
             :style="{ left: circleLeft + '%' }"></div>
     </div>
 </template>

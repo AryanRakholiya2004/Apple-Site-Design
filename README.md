@@ -17,6 +17,10 @@ Notes:
 - Use a small poster image (poster="/hero-poster.jpg") if you want a preview frame.
 - For in-app usage (Vue), import the asset inside a component instead of using public/.
 
+https://github.com/user-attachments/assets/9960cf77-7b7a-4537-8e23-b1789c7a39c7
+
+
+
 ## TL;DR
 A clean, responsive demo frontend that highlights:
 - Hero + product detail sections

@@ -7,6 +7,10 @@ Hey — this is the frontend part of my Apple-inspired landing demo. It's a smal
 ## Preview
 
 
+https://github.com/user-attachments/assets/9960cf77-7b7a-4537-8e23-b1789c7a39c7
+
+
+
 ## TL;DR
 A clean, responsive demo frontend that highlights:
 - Hero + product detail sections

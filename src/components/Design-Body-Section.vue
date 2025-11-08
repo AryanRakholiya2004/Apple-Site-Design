@@ -17,7 +17,7 @@
           <h1
             class="ms-4 px-4 text-7xl text-stone-800 font-pop font-semibold uppercase"
           >
-            Titanium Body
+            Aluminium Uni-Body
           </h1>
           <h1
             class="ms-8 text-2xl text-stone-600 font-rob flex items-center gap-3 mt-4"
@@ -36,8 +36,7 @@
               />
             </svg>
             Built with
-            <span class="text-stone-800 font-semibold">Aerospace-grade</span>
-            titanium
+            <span class="text-stone-800 font-semibold">Artistic Aluminium Uni-body design</span>
           </h1>
 
           <span class="mt-9 w-full h-[1px] bg-stone-200 block"></span>
@@ -49,7 +48,7 @@
               <span class="font-semibold text-stone-800 font-pop uppercase"
                 >Material :</span
               >
-              Titanium
+              Aluminium
             </li>
             <li
               class="font-mono text-lg text-stone-600 opacity-60 hover:opacity-100 hover:scale-[101%] transition-all duration-500"

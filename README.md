@@ -5,7 +5,17 @@ Hey — this is the frontend part of my Apple-inspired landing demo. It's a smal
 ---
 
 ## Preview
+<video controls playsinline style="max-width:100%; height:auto;">
+    <source src="https://github.com/user-attachments/assets/9960cf77-7b7a-4537-8e23-b1789c7a39c7" type="video/mp4">
+    Your browser does not support the video element. Download the video: [MP4](https://github.com/user-attachments/assets/9960cf77-7b7a-4537-8e23-b1789c7a39c7)
+</video>
 
+[Open the live demo ↗](http://aryanrakholiya.me/Apple-Site-Design/)
+
+Notes:
+- Recommended formats: MP4 (H.264) and WebM for broader browser support.
+- Use a small poster image (poster="/hero-poster.jpg") if you want a preview frame.
+- For in-app usage (Vue), import the asset inside a component instead of using public/.
 
 ## TL;DR
 A clean, responsive demo frontend that highlights:

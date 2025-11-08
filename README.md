@@ -5,7 +5,11 @@ Hey — this is the frontend part of my Apple-inspired landing demo. It's a smal
 ---
 
 ## Preview
-https://github.com/user-attachments/assets/9960cf77-7b7a-4537-8e23-b1789c7a39c7
+
+
+https://github.com/user-attachments/assets/c1c6ba3e-7ab9-4afb-85dc-429b0fa63ac6
+
+
 [Live preview 🔗](http://aryanrakholiya.me/Apple-Site-Design/)
 
 ## TL;DR

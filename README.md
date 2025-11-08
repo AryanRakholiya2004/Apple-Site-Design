@@ -6,7 +6,7 @@ Hey — this is the frontend part of my Apple-inspired landing demo. It's a smal
 
 ## Preview
 <video controls playsinline style="max-width:100%; height:auto;">
-    <source src="https://github.com/user-attachments/assets/9960cf77-7b7a-4537-8e23-b1789c7a39c7" type="video/mp4">
+    <source src="https://github.com/user-attachments/assets/26d26846-47bf-4ab9-8d96-84a6c340baf7" type="video/mp4">
     Your browser does not support the video element. Download the video: [MP4](https://github.com/user-attachments/assets/9960cf77-7b7a-4537-8e23-b1789c7a39c7)
 </video>
 

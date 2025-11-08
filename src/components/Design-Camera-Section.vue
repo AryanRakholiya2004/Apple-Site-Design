@@ -144,7 +144,7 @@ onMounted(() => {
             detail: {
               position: { x: -8.4, y: 0, z: 0 },
               rotation: { x: 0, y: 180, z: 90 },
-              camera: { x: 0, y: 0, z: 9, mm: 48 },
+              camera: { x: 0, y: 0, z: 7, mm: 48 },
             },
           })
         );
@@ -155,7 +155,7 @@ onMounted(() => {
             detail: {
               position: { x: -8.4, y: 0, z: 0 },
               rotation: { x: 0, y: 180, z: 90 },
-              camera: { x: 0, y: 0, z: 9, mm: 48 },
+              camera: { x: 0, y: 0, z: 7, mm: 48 },
             },
           })
         );

@@ -1,5 +1,5 @@
 <template>
-  <section id="container3D" class="fixed h-screen w-screen inset-0 z-50 pointer-events-none"></section>
+  <section id="container3D" class="fixed h-screen w-screen inset-0 z-40 pointer-events-none"></section>
 </template>
 
 <script setup>

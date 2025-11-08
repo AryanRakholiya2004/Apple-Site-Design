@@ -1,6 +1,6 @@
 <template>
   <section
-    class="design-edge-section p-10 h-screen mb-[1000px] overflow-hidden"
+    class="design-edge-section p-10 h-screen mb-[64vh] overflow-hidden"
   >
     <div
       class="bg-white w-full mx-auto rounded-[2em] h-full overflow-hidden"
@@ -111,7 +111,7 @@ onMounted(() => {
       id: "main_area-edge",
       trigger: ".design-edge-section",
       start: "top 0%",
-      end: "bottom -100%",
+      end: "bottom 0%",
       scrub: 1.6,
       //   markers: true,
       pin: true,

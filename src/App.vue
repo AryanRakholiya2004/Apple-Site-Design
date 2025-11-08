@@ -10,21 +10,22 @@ import Performance from './components/PerformanceSection.vue'
 import Design_Body_Section from './components/Design-Body-Section.vue'
 import Design_Camera_Section from './components/Design-Camera-Section.vue'
 import Design_Ports_Section from './components/Design-Ports-Section.vue'
+import FooterSection from './components/FooterSection.vue'
 
 // Camera section
-import CameraSection from './components/CameraSection.vue'
+// import CameraSection from './components/CameraSection.vue'
 </script>
 
 <template>
   <HeroSection/>
 
-  <!-- <Design_Body_Section /> -->
-  <!-- <Design_Camera_Section /> -->
-  <!-- <Design_Ports_Section /> -->
+  <Design_Body_Section />
+  <Design_Camera_Section />
+  <Design_Ports_Section />
 
-  <CameraSection/>
+  <FooterSection/>
 
-  <!-- <Model3D/>   -->
+  <Model3D/>  
   <!-- <div class="h-screen"></div> -->
 
 
